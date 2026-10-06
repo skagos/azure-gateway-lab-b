@@ -1,3 +1,5 @@
+> Phase 2: see [PEERING.md](PEERING.md). The baseline below applies with enable_peering=false in both projects. The VM-to-VM test is not a phase-2 acceptance check because of the NSG restriction.
+
 # Project B — Isolated remote VM
 
 # Phase 1: reproduce cross-VNet gateway failure

@@ -13,3 +13,9 @@ variable "admin_password" {
   sensitive   = true
   description = "Windows administrator password, supplied via TF_VAR_admin_password."
 }
+
+variable "enable_peering" {
+  type        = bool
+  default     = true
+  description = "Enable only after BOTH VNets exist. Set false in both projects for phase 1."
+}
