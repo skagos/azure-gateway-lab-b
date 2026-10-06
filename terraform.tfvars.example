@@ -1,0 +1,5 @@
+subscription_id = "YOUR-SUBSCRIPTION-ID"
+tenant_id = "YOUR-TENANT-ID"
+location = "denmarkeast"
+vm_size = "Standard_B2as_v2"
+# Supply admin_password via TF_VAR_admin_password; never commit a password.
